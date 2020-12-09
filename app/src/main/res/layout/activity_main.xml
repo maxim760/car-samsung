@@ -255,12 +255,14 @@
         android:layout_width="107dp"
         android:layout_height="105dp"
         android:background="@color/purple_200"
-        android:padding="4dp"
         android:contentPadding="4dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintCircleRadius="15dp"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="118dp"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.194"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp">
 
         <TextView
             android:id="@+id/textView3"
